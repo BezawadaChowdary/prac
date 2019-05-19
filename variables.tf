@@ -10,7 +10,7 @@ variable "environment" {
 }
 
 variable "keypair" {
-  default = "adc-sre-keypair-usw2"
+  default = "vc1234"
 }
 
 variable "bastion_instance_type" {
