@@ -1,0 +1,9 @@
+module "adc_ext_security_group" {
+  source                = "git::ssh://git@git.ten-x.io:7999/tf/adc_ext_security_group.git?ref=v0.0.2"  
+  team                  = "adc-sre"
+  environment           = "qa"
+  service               = "adc-wordpress"
+  vpc_id                = "${module.vpc.vpc_id}"
+  from_port             = "22"
+  to_port               = "22"
+}
