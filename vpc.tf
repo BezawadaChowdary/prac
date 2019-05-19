@@ -1,5 +1,5 @@
 module "vpc" {
-  source              = "git::ssh://git@git.ten-x.io:7999/tf/vpc?ref=v0.0.2"
+  source              = "git::ssh://git@github.com:BezawadaChowdary/vpc.git"
   name                = "adc-wordpress-qa"
   region              = "us-west-2"
   service             = "wordpress"

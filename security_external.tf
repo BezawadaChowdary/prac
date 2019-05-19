@@ -1,5 +1,5 @@
 module "adc_ext_security_group" {
-  source                = "git::ssh://git@git.ten-x.io:7999/tf/adc_ext_security_group.git?ref=v0.0.2"  
+  source                = "git::ssh://git@github.com:BezawadaChowdary/ext.git"  
   team                  = "adc-sre"
   environment           = "qa"
   service               = "adc-wordpress"

@@ -1,5 +1,5 @@
 module "rds" {
-  source  = "git::ssh://git@git.ten-x.io:7999/tf/rds"
+  source  = "git::ssh://git@github.com:BezawadaChowdary/rds.git"
   version = "1.28.0"
   identifier = "adc-wordpress-qa-rds"
 
